@@ -8,17 +8,16 @@
         },
         {
             "text": "Notebook",
-            "target": "notebook/_vnote.json",
+            "target": "_vnote.json",
             "navi": true
-			"navi_index": "notebook/welcome.md"
         }
     ],
     "actions":
     [
         {
-            "text": "Danpe",
-            "icon": "css/Danpe.svg",
-            "target": "https://danpey.github.io/"
+            "text": "Viki",
+            "icon": "css/viki_white.svg",
+            "target": "https://tamlok.github.io/viki/"
         }
     ]
 }
