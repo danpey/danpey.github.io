@@ -1,0 +1,15 @@
+{
+    "attachment_folder": "_v_attachments",
+    "config_mgr": "vx.vnotex",
+    "created_time": "2020-09-10T11:03:48Z",
+    "description": "",
+    "extra_configs": {
+    },
+    "history": [
+    ],
+    "image_folder": "vx_images",
+    "name": "Notebook",
+    "tag_graph": "",
+    "version": 3,
+    "version_controller": "dummy.vnotex"
+}

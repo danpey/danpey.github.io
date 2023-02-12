@@ -1,0 +1,79 @@
+vnote_backup_file_826537664 E:/VNote_notebooks/vnotebook/notebook/ROS/gmapping/参数详解.md
+# gmapping参数详解
+
+- `inverted_laser`            （string，默认值："false"）
+**（在1.1.1中已删除，改用转换数据）**激光器是朝上还是朝下？
+- `throttle_scans`            （int，默认值：1）
+在如此多的扫描中处理
+- `base_frame`                   （string，默认值："base_link"）
+框架固定在移动底座名
+- `map_frame`                     （string，默认值："map"）
+附加到地图的框架名
+- `odom_frame`                   （string，默认值："odom"）
+框架连接到里程表系统
+- `map_update_interval`   （float，默认值：5.0）
+两次更新之间的时间间隔（单位：秒）降低此数字会更频繁的占用网络，已增加计算负荷为代价
+- `maxUrange`                     （float，默认值：80.0）
+激光的最大可用范围，光束被裁剪为该值
+- `sigma`                            （float，默认值：0.05）
+贪婪断电匹配使用的sigma
+- `kernelSize`                   （int，默认值：1）
+在其中寻找对应关系的内核
+- `lstep`                            （float，默认值：0.05）
+翻译的优化步骤
+- `astep`                            （float，默认值：0.05）
+旋转的优化步骤
+- `iterations`                   （int，默认值：5）
+scanmatcher的迭代次数
+- `lsigma`                          （float，默认值：0.075）
+用于似然计算的光束的综合
+- `ogain`                            （float，默认值：3.0）
+评估似然时要使用的增益，以平滑重采样效果
+- `lskip`                            （int，默认值：0）
+每次扫描中要调过的光束数。仅捕获第(n+1)条激光束以计算匹配度（0=捕获所有射线）
+- `minimumScore`               （float，默认值：0.0）
+考虑扫描匹配结果良好的最低分数，当使用有限范围（例如5m）的激光扫描仪时，可以避免在大的开放空间中跳跃姿势估计。分数上升到600+，例如在遇到跳跃估计问题时尝试50。
+- `srr`                               （float，默认值：0.1）
+翻译中的里程表误差作为翻译的函数
+- `srt`                               （float，默认值：0.2）
+平移的里程表误差作为平移的函数
+- `str`                               （float，默认值：0.1）
+旋转的里程表误差作为平移的函数
+- `stt`                               （float，默认值：0.2）
+旋转的里程表误差作为旋转的函数
+- `linearUpdate`               （float，默认值：1.0）
+机器人每次平移此距离时都要进行扫描
+- `argularUpdate`             （float，默认值：0.5）
+机器人每次旋转此角度时都要进行扫描
+- `temporalUpdate`           （float，默认值：-1.0）
+如果最后处理的扫描遭遇更新时间（单位：秒），则处理扫描，小于零的值将关闭基于时间的更新。
+- `resampleThreshold`      （float，默认值：0.5）
+基于Neff的重采样阈值
+- `particles`                    （int，默认值：30）
+过滤器中的颗粒数
+- `xmin`                             （float，默认值：-100.0）
+初始地图尺寸（单位：米）
+- `ymin`                             （float，默认值：-100.0）
+初始地图尺寸（单位：米）
+- `xmax`                             （float，默认值：100.0）
+初始地图尺寸（单位：米）
+- `ymax`                             （float，默认值：100.0）
+初始地图尺寸（单位：米）
+- `delta`                           （float，默认值：0.05）
+地图的分辨率（每个占用格块的米数）
+- `llsamplerange`            （float，默认值：0.01）
+平移采样范围的可能性
+- `llsamplestep`              （float，默认值：0.01）
+可能性的平移采样步骤
+- `lasamplerange`            （float，默认值：0.005）
+可能性的角度采样范围
+- `lasamplestep`              （float，默认值：0.005）
+角度采样步骤的可能性
+- `transform_publish_period`    （float，默认值：0.05）
+转换发布之间的时间间隔（单位：秒），要禁用广播转换，请设置为0
+- `occ_thresh`                  （float，默认值：0.25）
+映射的占用率阈值，占用率较高的单元被视为已占用。1.1.0中的新功能
+- `maxRange`                     （float）
+传感器的最大范围。如果传感器范围内没有障碍的区域应显示为地图上的自由空间，则将设置为`maxUrange<时间传感器的最大范围<=maxRange`
+
+

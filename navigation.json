@@ -2,22 +2,29 @@
     "navigation":
     [
         {
-            "text": "Home",
+            "text": "主页",
             "target": "index.md",
             "toc": false
         },
         {
-            "text": "Notebook",
-            "target": "_vnote.json",
-            "navi": true
+            "text": "学习笔记",
+            "target": "notebook/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "LabVIEW笔记",
+            "target": "labview_book/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
         }
     ],
     "actions":
     [
         {
-            "text": "Viki",
-            "icon": "css/viki_white.svg",
-            "target": "https://tamlok.github.io/viki/"
+            "text": "Danpe",
+            "icon": "icon/logo/cropped-Danpe图标（正方形带阴影）-150x150.png",
+            "target": "http://danpey.github.io/"
         }
     ]
 }
