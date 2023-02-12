@@ -8,7 +8,7 @@
         },
         {
             "text": "学习笔记",
-            "target": "notebook/vx.json",
+            "target": "Notebook/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
