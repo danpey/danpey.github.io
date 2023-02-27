@@ -93,3 +93,25 @@ net start w32Time  # 启动NTP服务
 
 备注：
 [参考网址](https://blog.csdn.net/qq_20025777/article/details/115373055)
+
+## 附录
+
+国内常见NTP授时服务器地址
+
+中国科学院国家授时中心NTP授时服务器地址：`ntp.ntsc.ac.cn`
+
+腾讯云NTP授时服务器地址：
+`ntp.tencent.com`
+`ntp1.tencent.com`
+`ntp2.tencent.com`
+`npt3.tencent.com`
+`npt4.tencent.com`
+`npt5.tencent.com`
+
+阿里云NTP授时服务地址：`ntp.aliyun.com`
+
+教育网内的授时服务器
+`time.edu.cn`
+`s2c.time.edu.cn`
+`s2f.time.edu.cn`
+`s2k.time.edu.cn`
