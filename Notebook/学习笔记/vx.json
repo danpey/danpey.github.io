@@ -5,6 +5,9 @@
     "folders": [
         {
             "name": "LabVIEW"
+        },
+        {
+            "name": "LTspice"
         }
     ],
     "id": "86",

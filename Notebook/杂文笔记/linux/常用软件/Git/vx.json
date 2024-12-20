@@ -43,6 +43,9 @@
         }
     ],
     "folders": [
+        {
+            "name": "gitlab"
+        }
     ],
     "id": "8",
     "modified_time": "2023-02-12T11:59:27Z",
