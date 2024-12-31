@@ -2,7 +2,7 @@
 
 正常来讲STM32CubeIDE的代码提示快捷键是`Alt+/`才能触发。无法自动触发。
 
-
+这里提供一种实现自动代码提示的流程。
 
 
 ![](vx_images/471026172893816.png)
@@ -148,4 +148,21 @@ public void setCompletionProposalAutoActivationCharacters(char[] activationSet) 
 ![](vx_images/314876216731384.png)
 
 将导出目标的JAR文件选为同名文件，这里我们先导出到桌面
-![](vx_images/552603090973995.png)
+
+![](vx_images/435576745891727.png)
+
+![](vx_images/112123958706189.png)
+
+清单文件中选择现有工作清单
+![](vx_images/32444535989222.png)
+
+下图警告不需要理会
+![](vx_images/19014721881588.png)
+
+导出成功后将原先的名字加上bkp后缀，并将新导出的文件复制过去。
+这里贴上导出好的文件，有可能后续可以直接调用不需要修改和导出。
+[org.eclipse.cdt.ui_8.1.200.202310201538.jar](_v_attachments/274075409277037/org.eclipse.cdt.ui_8.1.200.202310201538.jar)
+
+重新启动STM32CubeIDE后，经过验证已经可以实现自动补全，不需要再按`Alt+/`快捷键。
+![](vx_images/2326381148436.png)
+
