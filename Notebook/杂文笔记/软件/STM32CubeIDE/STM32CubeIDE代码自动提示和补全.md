@@ -2,16 +2,16 @@
 
 正常来讲STM32CubeIDE的代码提示快捷键是`Alt+/`才能触发。无法自动触发。
 
-这里提供一种实现自动代码提示的流程。
+这里提供一种实现自动代码提示的流程。首先按照以下几张图进行安装相应插件。
 
+主要参考网址：[Cube IDE 实现自动代码补全功能](https://blog.csdn.net/Wu_HuaJie/article/details/129213406)
+次要参考网址：[给你的cubeIDE加上翅膀--添加类似keil的代码补全功能！](https://blog.csdn.net/nopear6/article/details/106255311)
 
 ![](vx_images/471026172893816.png)
 
 ![](vx_images/59027766836063.png)
 
 安装好后再安装下一个：
-
-
 地址为：`https://download.eclipse.org/releases/2024-12/`
 如下图所示：
 
