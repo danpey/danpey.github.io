@@ -8,8 +8,7 @@ Work with里面输入`https://download.eclipse.org/technology/babel/update-site/
 
 ![](vx_images/569607175370487.png)
 
-选择好后，然后一路点击Next，最后同意协议点击Finish。然后右下角可以看到下载进度。
-![](vx_images/540775432697862.png)
+选择好后，然后一路点击Next，最后同意所有协议最后点击Finish。然后右下角可以看到下载进度。
 
 ![](vx_images/351386280599839.png)
 
