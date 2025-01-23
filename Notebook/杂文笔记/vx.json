@@ -41,16 +41,17 @@
             "name": "Qt"
         },
         {
-            "name": "工作"
-        },
-        {
             "name": "mc"
         },
         {
             "name": "windows"
         },
         {
+<<<<<<< HEAD
+            "name": "EtherCAT"
+=======
             "name": "锻炼"
+>>>>>>> e33a6806e5d3025aabdec89b2f271c82260dd330
         }
     ],
     "id": "94",
