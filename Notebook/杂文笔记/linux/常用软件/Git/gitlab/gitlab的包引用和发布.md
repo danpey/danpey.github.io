@@ -8,7 +8,7 @@ visualstudio引用本地搭建的nuget库可能会有问题，如下图：
 然后打开cmd界面，输入指令即可完成增加：
 
 ``` shell
-dotnet nuget add source http://192.168.115.201:9000/api/v4/groups/21/-/packages/nuget/index.json --name "eol_group_package" --username "gitlab+deploy-token-5" --password "38pz1edAKnTRa1iQqusJ" --store-password-in-clear-text --allow-insecure-connections
+dotnet nuget add source http://192.168.189.22:9000/api/v4/groups/21/-/packages/nuget/index.json --name "eol_group_package" --username "gitlab+deploy-token-5" --password "38pz1edAKnTRa1iQqusJ" --store-password-in-clear-text --allow-insecure-connections
 ```
 
 ![](vx_images/362892615237552.png)

@@ -180,7 +180,7 @@
 在打包完成后，便可以配置你电脑上的nuget来使用这些包了。正常情况下，如果通过你电脑打包的项目，VS里面也会自动完成调用。但如果你是需要使用该库的电脑。或者说打包后VS里面的nuget没有完成调用，也可以打开cmd窗口，输入以下指令即可该组的调用。
 
 ``` shell
-dotnet nuget add source http://192.168.115.201:9000/api/v4/groups/21/-/packages/nuget/index.json --name "eol_group_package" --username "gitlab+deploy-token-5" --password "38pz1edAKnTRa1iQqusJ" --store-password-in-clear-text --allow-insecure-connections
+dotnet nuget add source http://192.168.189.22:9000/api/v4/groups/21/-/packages/nuget/index.json --name "eol_group_package" --username "gitlab+deploy-token-5" --password "38pz1edAKnTRa1iQqusJ" --store-password-in-clear-text --allow-insecure-connections
 ```
 
 完成调用后的效果如第一场图所示。
